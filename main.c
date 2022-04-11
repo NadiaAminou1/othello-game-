@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+
 /* Created by Nadia Aminou
  * Student Number - 20312373
  * The othello/reversi game */
@@ -131,7 +131,7 @@ void movePlayer(char place[], char color) {
 }
 
 void welcome(void) {
-    printf("\t\t***  Welcome to Otheloo!  ***\n");
+    printf("\t\t***  Welcome to Othello!  ***\n");
 
     printf("Enter name of Player 1 (Black): ");
     scanf("%s", players.player1);
